@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="Pictures/github-logo.png">
+    <title>GitHub</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <header>
+      <img src="Pictures/Github-hp.png" alt="github-logo">
+      <h1>GitHub</h1>
+    </header>
+    <main>
+      <div id="search-and-filter">
+        <input type="text" id="username" placeholder="Enter GitHub username" />
+        <button id="fetch-repos">Get Profile</button>
+      </div>
+      <div id="user-info">
+        <img id="profile-image" alt="Profile Image" style="display: none" />
+        <h2 id="username-display"></h2>
+      </div>
+      <div id="repo-list">
+        <ul>
+            <span class="skills"></span>
+        </ul>
+      </div>
+    </main>
+    <script src="index.js"></script>
+  </body>
+</html>
